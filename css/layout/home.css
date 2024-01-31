@@ -1,0 +1,70 @@
+/*
+    Importamos a font que foi baixada (se encontra na pasta fonts)
+*/
+@font-face {
+    font-family: 'Billabong'; 
+    src: url('../../assets/fonts/Billabong.ttf') format('truetype'); 
+}
+ h1 {
+    font-family:  'Billabong';
+    margin-left: 16px;
+    font-size: 48px;
+    margin-bottom: 32px;
+ }
+
+/*
+    configuramos a imagem do feed
+*/
+.imgFeed {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+    Cada imagem aparecerá dentro de um card
+*/
+#card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+/*
+    Essa é a imagem menor, aquela circular que fica ao lado do nome da pessoa
+*/
+.img_user {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+/*
+    Configuramos onde fica as informações dos usuários
+*/
+.userInfo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 48px;
+    margin-left: 8px;
+}
+
+/*
+    Configuramos o botão de curtir
+*/
+.btn_curtir {
+    width: 32px;
+    height: 32px;
+}
+
+/*
+    Abaixo da foto teremos um conjunto de açóes (ver as curtidas, curtir, add...)
+*/
+.acoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+}

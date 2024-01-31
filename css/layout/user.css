@@ -1,0 +1,6 @@
+/*
+    Escondemos o display do usuáiro (ele será exibido apenas quando o icone for clicado)
+*/
+#user {
+    display: none;
+}

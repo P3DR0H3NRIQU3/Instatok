@@ -1,0 +1,16 @@
+/*
+    Fazemos os imports dos arquicos que iremos precisar
+*/
+@import 'module/bottom_navigation.css';
+@import 'layout/home.css';
+@import 'layout/friends.css';
+@import 'layout/user.css';
+
+
+/*
+    Zeramos a margin e o padding
+*/
+* {
+    margin: 0;
+    padding: 0;
+}

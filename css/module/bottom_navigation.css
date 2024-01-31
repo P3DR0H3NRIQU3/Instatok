@@ -1,0 +1,27 @@
+/*
+    Configuramos nosso menu inferior para que fique fixo ocupando o bottom 0
+    (literalmente ficar lá em baixo)
+*/
+
+.bottom_navigation_bar {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-top: 2px solid black;
+    background-color: aliceblue;
+}
+
+/*
+    Criamos uma classe que será adicionada ao icone, conforme clicamos nele
+    por isso no js tem que ter o classlist add e o calsslist remove
+*/
+.icon {
+    background-color:rgb(163, 163, 163);
+    border-radius: 12px;
+    padding: 1px;
+}

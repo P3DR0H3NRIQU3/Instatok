@@ -1,0 +1,7 @@
+/*
+    Escondemos o display ds amigos (ele será exibido apenas quando o icone for clicado)
+*/
+
+#friends {
+    display: none;
+}
